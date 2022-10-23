@@ -1,15 +1,15 @@
 {
-  "name": "react-dummy",
+  "name": "react-generic-dummy",
   "version": "0.0.3",
   "description": "Dummy react component.",
   "keywords": [
     "dummy",
     "mockup"
   ],
-  "homepage": "https://torben.website/react-dummy",
+  "homepage": "https://torben.website/react-generic-dummy",
   "bugs": {
     "email": "info@torben.website",
-    "url": "https://github.com/thaibault/react-dummy/issues"
+    "url": "https://github.com/thaibault/react-generic-dummy/issues"
   },
   "license": "CC-BY-3.0",
   "main": "index.js",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/thaibault/react-dummy"
+    "url": "https://github.com/thaibault/react-generic-dummy"
   },
   "scripts": {
     "build": "yarn build:types; yarn build:plain",
@@ -41,7 +41,7 @@
     "update:documentation": "documentation-website",
     "watch": "weboptimizer build --watch"
   },
-  "runkitExample": "require('@babel/runtime/package.json')\n\nglobalThis.window = globalThis\n\nconst {Dummy} = require('react-dummy')\n\nDummy.isDummy",
+  "runkitExample": "require('@babel/runtime/package.json')\n\nglobalThis.window = globalThis\n\nconst {Dummy} = require('react-generic-dummy')\n\nDummy.isDummy",
   "dependencies": {
     "@types/webpack": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
   },
@@ -73,7 +73,6 @@
     "@types/react-dom": "*",
     "clientnode": "*",
     "react": "*",
-    "react-ace": "*",
     "react-dom": "*",
     "tslib": "*"
   },
