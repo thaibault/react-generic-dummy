@@ -36,7 +36,7 @@ export type Props = Mapping<unknown> & {children?:ReactElement}
  */
 export const Dummy:FunctionComponent<Props> & {isDummy:true} = forwardRef(
     ((
-        properties:Props, _reference:MutableRefObject<unknown>|null
+        properties:Props, _reference?:MutableRefObject<unknown>|null
     ):ReactElement =>
         <div>
             {properties.children ?? null}
