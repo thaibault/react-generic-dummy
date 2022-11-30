@@ -43,9 +43,6 @@
     "watch": "weboptimizer build --watch"
   },
   "runkitExample": "require('@babel/runtime/package.json')\n\nglobalThis.window = globalThis\n\nconst {Dummy} = require('react-generic-dummy')\n\nDummy.isDummy",
-  "dependencies": {
-    "@types/webpack": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
-  },
   "devDependencies": {
     "@babel/eslint-parser": "*",
     "@babel/preset-react": "*",
@@ -100,9 +97,6 @@
   "engines": {
     "node": ">=19",
     "npm": ">=8"
-  },
-  "resolutions": {
-    "@types/webpack": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
   },
   "sideEffects": false,
   "documentationWebsite": {
