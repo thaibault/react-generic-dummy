@@ -38,7 +38,7 @@
     "postversion": "yarn publish --non-interactive; git push --tags && git push",
     "serve": "weboptimizer serve",
     "start": "yarn serve",
-    "update": "yarn version --patch",
+    "update": "yarn version patch && git push --tags",
     "update:documentation": "documentation-website",
     "watch": "weboptimizer build --watch"
   },
