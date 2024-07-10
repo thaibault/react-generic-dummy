@@ -17,7 +17,7 @@
     endregion
 */
 // region imports
-import {Mapping} from 'clientnode/type'
+import {Mapping} from 'clientnode'
 import {
     forwardRef,
     ForwardRefRenderFunction,
@@ -33,7 +33,6 @@ export const reference:{current:MutableRefObject<unknown>|null} =
  * Generic strict wrapper component.
  * @param properties - Given component properties.
  * @param ref - Given reference to mutable persistent object.
- *
  * @returns React elements.
  */
 export const Dummy:FunctionComponent<Props> & {isDummy:true} = forwardRef(
@@ -50,7 +49,3 @@ export const Dummy:FunctionComponent<Props> & {isDummy:true} = forwardRef(
 Dummy.isDummy = true
 
 export default Dummy
-// region vim modline
-// vim: set tabstop=4 shiftwidth=4 expandtab:
-// vim: foldmethod=marker foldmarker=region,endregion:
-// endregion
