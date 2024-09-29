@@ -26,8 +26,8 @@ import {
     MutableRefObject
 } from 'react'
 // endregion
-export type Props = Mapping<unknown> & {children?:ReactElement}
-export const reference:{current:MutableRefObject<unknown>|null} =
+export type Props = Mapping<unknown> & {children?: ReactElement}
+export const reference: {current: MutableRefObject<unknown>|null} =
     {current: null}
 /**
  * Generic strict wrapper component.
@@ -35,17 +35,17 @@ export const reference:{current:MutableRefObject<unknown>|null} =
  * @param ref - Given reference to mutable persistent object.
  * @returns React elements.
  */
-export const Dummy:FunctionComponent<Props> & {isDummy:true} = forwardRef(
+export const Dummy: FunctionComponent<Props> & {isDummy: true} = forwardRef(
     ((
-        properties:Props, ref:MutableRefObject<unknown>|null
-    ):ReactElement => {
+        properties: Props, ref: MutableRefObject<unknown>|null
+    ): ReactElement => {
         reference.current = ref
 
         return <div>
             {properties.children ?? null}
         </div>
     }) as ForwardRefRenderFunction<unknown, Mapping<unknown>>
-) as unknown as FunctionComponent<unknown> & {isDummy:true}
+) as unknown as FunctionComponent<unknown> & {isDummy: true}
 Dummy.isDummy = true
 
 export default Dummy
