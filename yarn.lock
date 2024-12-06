@@ -2323,12 +2323,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.0.0":
-  version: 19.0.0
-  resolution: "@types/react-dom@npm:19.0.0"
+"@types/react-dom@npm:^19.0.1":
+  version: 19.0.1
+  resolution: "@types/react-dom@npm:19.0.1"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10c0/bd480fc4a9c801fc6bbc7d26b37bb815fc382e76b5428511b1bdb2e8048f3dbd2ff9973bafc86b448e0593f9da4c02f7b39d47409e427daeed5a54f045de4596
+  checksum: 10c0/fb40069a7c5c70475155dff91d25ff5a51226c14d45c8ad55894480366876426981c8be63ef322486af879bb220bf48443f2344c1a89cb75a47a1a761acee9d3
   languageName: node
   linkType: hard
 
@@ -4466,9 +4466,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clientnode@npm:^3.0.1234":
-  version: 3.0.1234
-  resolution: "clientnode@npm:3.0.1234"
+"clientnode@npm:^3.0.1235":
+  version: 3.0.1235
+  resolution: "clientnode@npm:3.0.1235"
   peerDependencies:
     "@babel/runtime": "*"
     "@types/prop-types": "*"
@@ -4486,7 +4486,7 @@ __metadata:
       optional: true
     prop-types:
       optional: true
-  checksum: 10c0/1c2f21e5333efd50341981f651095db0f4903c1022667656db28f1644703422484b8f3c6952701008ecbcd1f703ff785718fbcbb62eb2415201de903265f8c3f
+  checksum: 10c0/288b55ace46a14158542322a8e7b1b9e2b2563147ef4bc751baf59d859af19d350bfd39fb65da922079afdc8b648067c0f9a6f3fe8ae995bbea3e9154a38bf05
   languageName: node
   linkType: hard
 
@@ -8221,11 +8221,11 @@ __metadata:
     "@types/jsdom": "npm:^21.1.7"
     "@types/node": "npm:^22.10.1"
     "@types/react": "npm:^19.0.0"
-    "@types/react-dom": "npm:^19.0.0"
+    "@types/react-dom": "npm:^19.0.1"
     "@types/webpack-env": "npm:^1.18.5"
     "@typescript-eslint/eslint-plugin": "npm:^8.17.0"
     "@typescript-eslint/parser": "npm:^8.17.0"
-    clientnode: "npm:^3.0.1234"
+    clientnode: "npm:^3.0.1235"
     documentation-website: "npm:^1.0.340"
     eslint: "npm:^9.16.0"
     eslint-config-google: "npm:^0.14.0"
@@ -8235,7 +8235,7 @@ __metadata:
     react-dom: "npm:^19.0.0"
     tslib: "npm:^2.8.1"
     typescript-eslint: "npm:^8.17.0"
-    weboptimizer: "npm:^2.0.1541"
+    weboptimizer: "npm:^2.0.1542"
     webpack-dev-server: "npm:^5.1.0"
   peerDependencies:
     "@babel/runtime": "*"
@@ -9737,9 +9737,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"weboptimizer@npm:^2.0.1541":
-  version: 2.0.1541
-  resolution: "weboptimizer@npm:2.0.1541"
+"weboptimizer@npm:^2.0.1542":
+  version: 2.0.1542
+  resolution: "weboptimizer@npm:2.0.1542"
   dependencies:
     "@babel/core": "npm:^7.26.0"
     "@babel/plugin-proposal-class-properties": "npm:^7.18.6"
@@ -9766,7 +9766,7 @@ __metadata:
     rimraf: "npm:^6.0.1"
     script-loader: "npm:^0.7.2"
     typescript: "npm:^5.7.2"
-    webpack: "npm:^5.97.0"
+    webpack: "npm:^5.97.1"
     webpack-cli: "npm:^5.1.4"
     webpack-sources: "npm:^3.2.3"
   peerDependencies:
@@ -9879,7 +9879,7 @@ __metadata:
       optional: true
   bin:
     weboptimizer: index.js
-  checksum: 10c0/9dbdeb173a15920e0f403a5c012ea11100300d14d7cde570ee7898df769c81c158916695a83b70d35aaf1919b0d174097b93ac6a2a24f8ff15de3be384bce7a5
+  checksum: 10c0/1a4431f91cb83942a837da73924043a60c8e3b21c7b56df3a505246ab4628bd2bd543b3d289583c2d42479a050b4f337098814dd70a11061bf7058dcdd92c8a8
   languageName: node
   linkType: hard
 
@@ -9997,7 +9997,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.97.0":
+"webpack@npm:^5.97.1":
   version: 5.97.1
   resolution: "webpack@npm:5.97.1"
   dependencies:
