@@ -23,11 +23,11 @@ import {
     ForwardRefRenderFunction,
     FunctionComponent,
     ReactElement,
-    MutableRefObject
+    RefObject
 } from 'react'
 // endregion
 export type Props = Mapping<unknown> & {children?: ReactElement}
-export const reference: {current: MutableRefObject<unknown>|null} =
+export const reference: {current: RefObject<unknown>|null} =
     {current: null}
 /**
  * Generic strict wrapper component.
@@ -37,7 +37,7 @@ export const reference: {current: MutableRefObject<unknown>|null} =
  */
 export const Dummy: FunctionComponent<Props> & {isDummy: true} = forwardRef(
     ((
-        properties: Props, ref: MutableRefObject<unknown>|null
+        properties: Props, ref: RefObject<unknown>|null
     ): ReactElement => {
         reference.current = ref
 
