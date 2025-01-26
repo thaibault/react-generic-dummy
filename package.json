@@ -37,7 +37,6 @@
     "prepare": "yarn build",
     "serve": "weboptimizer serve",
     "start": "yarn serve",
-    "update": "yarn version patch && yarn npm publish",
     "update:documentation": "documentation-website",
     "watch": "weboptimizer build --watch"
   },
