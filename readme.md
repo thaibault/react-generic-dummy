@@ -17,6 +17,7 @@ Project status
 [![npm downloads](https://img.shields.io/npm/dy/react-generic-dummy.svg?style=for-the-badge)](https://www.npmjs.com/package/react-generic-dummy)
 
 [![build](https://img.shields.io/github/actions/workflow/status/thaibault/react-generic-dummy/build.yaml?style=for-the-badge)](https://github.com/thaibault/react-generic-dummy/actions/workflows/build.yaml)
+[![build push package](https://img.shields.io/github/actions/workflow/status/thaibault/react-generic-dummy/build-package-and-push.yaml?label=build%20push%20package&style=for-the-badge)](https://github.com/thaibault/react-generic-dummy/actions/workflows/build-package-and-push.yaml)
 
 [![check types](https://img.shields.io/github/actions/workflow/status/thaibault/react-generic-dummy/check-types.yaml?label=check%20types&style=for-the-badge)](https://github.com/thaibault/react-generic-dummy/actions/workflows/check-types.yaml)
 [![lint](https://img.shields.io/github/actions/workflow/status/thaibault/react-generic-dummy/lint.yaml?label=lint&style=for-the-badge)](https://github.com/thaibault/react-generic-dummy/actions/workflows/lint.yaml)
