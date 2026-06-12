@@ -101,7 +101,7 @@
     "yarn": ">=4"
   },
   "sideEffects": false,
-  "documentationWebsite": {
+  "webDocumentation": {
     "tagline": "Dummy your react components in tests.",
     "trackingCode": "TODO"
   },
