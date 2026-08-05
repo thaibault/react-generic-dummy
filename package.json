@@ -43,7 +43,6 @@
   "devDependencies": {
     "@babel/eslint-parser": "^8.0.1",
     "@babel/preset-react": "^8.0.1",
-    "@babel/runtime": "^8.0.0",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/jsdom": "^28.0.3",
@@ -68,7 +67,6 @@
   },
   "peerDependencies": {
     "@babel/preset-react": "*",
-    "@babel/runtime": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "clientnode": "*",
@@ -78,9 +76,6 @@
   },
   "peerDependenciesMeta": {
     "@babel/preset-react": {
-      "optional": true
-    },
-    "@babel/runtime": {
       "optional": true
     },
     "@types/react": {
