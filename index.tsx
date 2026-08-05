@@ -17,14 +17,12 @@
     endregion
 */
 // region imports
-import {Mapping} from 'clientnode'
-import {
-    forwardRef,
-    ForwardRefRenderFunction,
-    FunctionComponent,
-    ReactElement,
-    RefObject
+import type {Mapping} from 'clientnode'
+import type {
+    ForwardRefRenderFunction, FunctionComponent, ReactElement, RefObject
 } from 'react'
+
+import {forwardRef} from 'react'
 // endregion
 export type Props = Mapping<unknown> & {children?: ReactElement}
 export const reference: {current: RefObject<unknown>|null} =
