@@ -1,1 +1,32 @@
-"use strict";if("undefined"!=typeof module&&null!==module&&"undefined"!==eval("typeof require")&&null!==eval("require")&&"main"in eval("require")&&"undefined"!==eval("typeof require.main")&&null!==eval("require.main")){var ORIGINAL_MAIN_MODULE=module;module!==eval("require.main")&&"paths"in module&&"paths"in eval("require.main")&&"undefined"!=typeof __dirname&&null!==__dirname&&(module.paths=eval("require.main.paths").concat(module.paths.filter((function(path){return eval("require.main.paths").includes(path)}))))}if(null==window)var window="undefined"==typeof global||null===global?{}:global;!function(e,r){if("object"==typeof exports&&"object"==typeof module)module.exports=r(require("react"),require("react/jsx-runtime"));else if("function"==typeof define&&define.amd)define(["react","react/jsx-runtime"],r);else{var n="object"==typeof exports?r(require("react"),require("react/jsx-runtime")):r(e.react,e["react/jsx-runtime"]);for(var t in n)("object"==typeof exports?exports:e)[t]=n[t]}}(this,(function(e,r){return function(){var n=[,function(r){r.exports=e},function(e){e.exports=r}],t={};function u(e){var r=t[e];if(void 0!==r)return r.exports;var o=t[e]={exports:{}};return n[e](o,o.exports,u),o.exports}u.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(r,{a:r}),r},u.d=function(e,r){for(var n in r)u.o(r,n)&&!u.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:r[n]})},u.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},u.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var o={};u.r(o),u.d(o,{Dummy:function(){return f},reference:function(){return l}});var i=u(1),a=u(2),l={current:null},f=(0,i.forwardRef)((function(e,r){var n;return l.current=r,(0,a.jsx)("div",{children:null!==(n=e.children)&&void 0!==n?n:null})}));return f.isDummy=!0,o.default=f,o}()}));
+if(typeof window==='undefined'||window===null)var window=(typeof globalThis==='undefined'||globalThis===null)?{}:globalThis;import { forwardRef as __WEBPACK_EXTERNAL_MODULE_react_forwardRef__ } from "react";
+import { jsx as __WEBPACK_EXTERNAL_MODULE_react_jsx_runtime_00f484c1_jsx__ } from "react/jsx-runtime";
+
+;// external "react"
+
+;// external "react/jsx-runtime"
+
+;// ./index.tsx
+// #!/usr/bin/env babel-node
+// -*- coding: utf-8 -*-
+/** @module Dummy *//* !
+    region header
+    [Project page](https://tsickert.com/react-material-input)
+
+    Copyright Torben Sickert (info["~at~"]tsickert.com) 16.12.2012
+
+    License
+    -------
+
+    This library written by Torben Sickert stands under a creative commons
+    naming 3.0 unported license.
+    See https://creativecommons.org/licenses/by/3.0/deed.de
+    endregion
+*/// region imports
+// endregion
+var reference={current:null};/**
+ * Generic strict wrapper component.
+ * @param properties - Given component properties.
+ * @param ref - Given reference to mutable persistent object.
+ * @returns React elements.
+ */var Dummy=/*#__PURE__*/__WEBPACK_EXTERNAL_MODULE_react_forwardRef__(function(properties,ref){var _properties$children;reference.current=ref;return/*#__PURE__*/__WEBPACK_EXTERNAL_MODULE_react_jsx_runtime_00f484c1_jsx__("div",{children:(_properties$children=properties.children)!==null&&_properties$children!==void 0?_properties$children:null})});Dummy.isDummy=true;/* harmony default export */ var index = (Dummy);
+export { Dummy, index as default, reference };
