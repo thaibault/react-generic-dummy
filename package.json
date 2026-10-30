@@ -1,6 +1,6 @@
 {
   "name": "react-generic-dummy",
-  "version": "0.0.140",
+  "version": "0.0.141",
   "description": "Dummy react component.",
   "keywords": [
     "dummy",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thaibault/react-generic-dummy"
+    "url": "git+https://github.com/thaibault/react-generic-dummy.git"
   },
   "type": "module",
   "main": "index.js",
