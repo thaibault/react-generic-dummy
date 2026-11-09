@@ -110,13 +110,6 @@
     "tagline": "Dummy your react components in tests."
   },
   "webOptimizer": {
-    "commandLine": {
-      "test": {
-        "environments": [
-          "jsdom"
-        ]
-      }
-    },
     "generic": {
       "supportedBrowsers": [
         "IE >= 11",
