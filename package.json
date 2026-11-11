@@ -107,6 +107,11 @@
     "yarn": ">=4"
   },
   "webDocumentation": {
+    "languages": [
+      "enUS",
+      "deDE",
+      "frFR"
+    ],
     "tagline": "Dummy your react components in tests."
   },
   "webOptimizer": {
