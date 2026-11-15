@@ -18,8 +18,8 @@ import { jsx as __WEBPACK_EXTERNAL_MODULE_react_jsx_runtime_00f484c1_jsx__ } fro
     -------
 
     This library written by Torben Sickert stands under a creative commons
-    naming 3.0 unported license.
-    See https://creativecommons.org/licenses/by/3.0/deed.de
+    naming 4.0 international license.
+    See https://creativecommons.org/licenses/by/4.0/deed.de
     endregion
 */// region imports
 // endregion
