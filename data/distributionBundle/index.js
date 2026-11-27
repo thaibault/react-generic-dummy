@@ -1,1 +1,0 @@
-if(null==r)var r="undefined"==typeof globalThis||null===globalThis?{}:globalThis;import{forwardRef as l}from"react";import{jsx as n}from"react/jsx-runtime";var a={current:null},e=l(function(r,l){var e;return a.current=l,n("div",{children:null!==(e=r.children)&&void 0!==e?e:null})});e.isDummy=!0;var i=e;export{e as Dummy,i as default,a as reference};
